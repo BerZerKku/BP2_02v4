@@ -1,0 +1,8 @@
+signoise.run/
+log/
+plot/
+rep/
+*,1*
+*,2*
+*,3*
+*autosave*.*
