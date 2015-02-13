@@ -2,7 +2,9 @@
   (ProjectVersion "19981106")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
     (File ".\bp2_02v4.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
@@ -62,6 +64,22 @@
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
     (DRC_Run_Physical_Custom_DRC "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "TRUE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
     (Board_sim_option "VHDL_flow"))
   (Folder "Outputs"
     (File ".\pcb\pstxnet.dat"
@@ -77,13 +95,61 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (DIODE
-      (FullPartName "DIODE.Normal")
+    (TOP
+      (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (BOT_1
+      (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR_F
+      (FullPartName "INDUCTOR_F.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BOT_2
+      (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (A4
+      (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (A4_1
+      (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (TitleBlock0
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TitleBlockANSILarge
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SCH2
+      (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR_POL
+      (FullPartName "CAPACITOR_POL.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R_1W
+      (FullPartName "R_1W.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R_0.75W
+      (FullPartName "R_0.75W.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (MTM_PMA_S
       (FullPartName "MTM_PMA_S.Normal")
       (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (DIN41612-H15
+      (FullPartName "DIN41612-H15.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (HOLDER
       (FullPartName "HOLDER.Normal")
@@ -97,12 +163,19 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bp2_02v4.dsn")
-      (Path "Design Resources" ".\bp2_02v4.dsn" "TOP LEVEL")
-      (Path "Design Resources" ".\bp2_02v4.dsn" "Design Cache")
+      (Path "Design Resources" "d:\project\circuit\bp2\bp2_02v4\bp2_02v4.dsn")
+      (Path "Design Resources" "d:\project\circuit\bp2\bp2_02v4\bp2_02v4.dsn"
+         "TOP LEVEL")
+      (Path "Design Resources" "d:\project\circuit\bp2\bp2_02v4\bp2_02v4.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "d:\project\circuit\bp2\bp2_02v4\library1.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\bp2_02v4.dsn" "TOP LEVEL" "MAIN"))
-    (HierarchyView)
+      (Select "Design Resources" "Library"
+         "d:\project\circuit\bp2\bp2_02v4\library1.olb" "TOP"))
+    (HierarchyView
+      (Path "TOP LEVEL"))
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
@@ -111,11 +184,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 -222 1175 112 604")
-        (Scroll "-310 57")
-        (Zoom "116")
+        (Placement "44 2 3 -1 -1 -4 -24 0 1397 0 462")
+        (Scroll "-567 -8")
+        (Zoom "56")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\BP2_02V4.DSN")
       (Schematic "TOP LEVEL")
       (Page "MAIN")))
-  (MPSSessionName "Shcheblykin"))
+  (MPSSessionName "Shcheblykin")
+  (LastUsedLibraryBrowseDirectory "D:\Project\Circuit\OrCAD\lib"))
