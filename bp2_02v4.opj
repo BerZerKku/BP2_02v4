@@ -4,6 +4,8 @@
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\library1.olb"
+        (Type "Schematic Library"))
+      (File "d:\project\circuit\orcad\lib\sample.olb"
         (Type "Schematic Library")))
     (File ".\bp2_02v4.dsn"
       (Type "Schematic Design"))
@@ -66,7 +68,7 @@
     (DRC_Run_Physical_Custom_DRC "FALSE")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "0")
-    (ANNOTATE_Action "0")
+    (ANNOTATE_Action "1")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -95,6 +97,18 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (VARISTOR
+      (FullPartName "VARISTOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR_POL
+      (FullPartName "CAPACITOR_POL.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (HCPL-0201
+      (FullPartName "HCPL-0201.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
     (TOP
       (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
       (DeviceIndex "0"))
@@ -125,10 +139,6 @@
       (DeviceIndex "0"))
     (INDUCTOR
       (FullPartName "INDUCTOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR_POL
-      (FullPartName "CAPACITOR_POL.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (R_1W
@@ -166,16 +176,14 @@
       (Path "Design Resources" "d:\project\circuit\bp2\bp2_02v4\bp2_02v4.dsn")
       (Path "Design Resources" "d:\project\circuit\bp2\bp2_02v4\bp2_02v4.dsn"
          "TOP LEVEL")
-      (Path "Design Resources" "d:\project\circuit\bp2\bp2_02v4\bp2_02v4.dsn"
-         "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "d:\project\circuit\bp2\bp2_02v4\library1.olb")
+      (Path "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library"
-         "d:\project\circuit\bp2\bp2_02v4\library1.olb" "TOP"))
-    (HierarchyView
-      (Path "TOP LEVEL"))
+      (Select "Design Resources" "d:\project\circuit\bp2\bp2_02v4\bp2_02v4.dsn"))
+    (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
@@ -185,8 +193,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -24 0 1397 0 462")
-        (Scroll "-567 -8")
-        (Zoom "56")
+        (Scroll "-319 607")
+        (Zoom "116")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\BP2_02V4.DSN")
       (Schematic "TOP LEVEL")
