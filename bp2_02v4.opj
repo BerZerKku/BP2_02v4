@@ -68,7 +68,7 @@
     (DRC_Run_Physical_Custom_DRC "FALSE")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "0")
-    (ANNOTATE_Action "1")
+    (ANNOTATE_Action "0")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -173,6 +173,9 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" "D:\Project\Circuit\BP2\BP2_02v4\bp2_02v4.dsn")
+      (Path "Design Resources" "D:\Project\Circuit\BP2\BP2_02v4\bp2_02v4.dsn"
+         "TOP LEVEL")
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Select "Design Resources" "D:\Project\Circuit\BP2\BP2_02v4\bp2_02v4.dsn"))
@@ -185,9 +188,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 0 1397 0 462")
-        (Scroll "-319 354")
-        (Zoom "116")
+        (Placement "44 2 3 -1 -1 -4 -24 154 1586 161 653")
+        (Scroll "-402 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\BP2_02V4.DSN")
       (Schematic "TOP LEVEL")
