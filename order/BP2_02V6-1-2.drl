@@ -12,8 +12,8 @@ T09C2.8
 ;LEADER: 12 
 ;HEADER: 
 ;CODE  : ASCII 
-;FILE  : BP2_02v5-1-2.drl for  ... layers TOP and BOTTOM
-;DESIGN: BP2_02v5.brd
+;FILE  : BP2_02V6-1-2.drl for  ... layers TOP and BOTTOM
+;DESIGN: BP2_02V6.brd
 ;T01 Holesize 1. = 0.400000 Tolerance = +0.000000/-0.000000 PLATED MM Quantity = 80
 ;T02 Holesize 2. = 0.800000 Tolerance = +0.000000/-0.000000 PLATED MM Quantity = 4
 ;T03 Holesize 3. = 1.000000 Tolerance = +0.000000/-0.000000 PLATED MM Quantity = 2

@@ -1,9 +1,9 @@
 G04 ================== begin FILE IDENTIFICATION RECORD ==================*
-G04 Layout Name:  D:/Project/Circuit/BP2/BP2_02v5/pcb/BP2_02v5.brd*
+G04 Layout Name:  D:/Project/Circuit/BP2/BP2_02v6/pcb/BP2_02V6.brd*
 G04 Film Name:    MASK_BOT*
 G04 File Format:  Gerber RS274X*
 G04 File Origin:  Cadence Allegro 16.6-2015-S073*
-G04 Origin Date:  Wed Dec 07 15:02:34 2016*
+G04 Origin Date:  Wed Apr 05 13:53:42 2017*
 G04 *
 G04 Layer:  VIA CLASS/SOLDERMASK_BOTTOM*
 G04 Layer:  PIN/SOLDERMASK_BOTTOM*
